@@ -1,5 +1,5 @@
 {
-  "name": "sfmc-rest-sdk",
+  "name": "@gojob/sfmc-rest-sdk",
   "version": "1.0.0",
   "description": "Salesforce Marketing Cloud REST API client",
   "repository": "https://github.com/typedef42/sfmc-rest-sdk",
