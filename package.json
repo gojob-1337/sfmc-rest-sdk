@@ -2,7 +2,7 @@
   "name": "@gojob/sfmc-rest-sdk",
   "version": "1.0.0",
   "description": "Salesforce Marketing Cloud REST API client",
-  "repository": "https://github.com/typedef42/sfmc-rest-sdk",
+  "repository": "https://github.com/gojob-1337/sfmc-rest-sdk",
   "author": "Yannis Torres <yannis@gojob.com>",
   "license": "MIT",
   "types": "./dist/index.d.ts",
