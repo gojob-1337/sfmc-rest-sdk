@@ -1,6 +1,6 @@
-import { AuthData } from './../auth/auth';
 import axios from 'axios';
 
+import { AuthData } from '../auth/auth';
 import { Auth } from '../auth/auth';
 
 export enum RequestType {

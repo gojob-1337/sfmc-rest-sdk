@@ -1,5 +1,5 @@
-import { Scope } from './../common/scope';
-import { Requestable, RequestType } from './../common/requestable';
+import { Requestable, RequestType } from '../common/requestable';
+import { Scope } from '../common/scope';
 
 export class Contacts extends Requestable {
   private readonly endpointRoot: string = 'contacts/v1/contacts/actions/';

@@ -1,5 +1,5 @@
-import { Scope } from './../../common/scope';
 import { Requestable, RequestType } from '../../common/requestable';
+import { Scope } from '../../common/scope';
 
 export interface SyncPostData {
   keys: any;
@@ -18,10 +18,10 @@ export class DataEventsSync extends Requestable {
   private readonly endpointRoot: string = 'hub/v1/dataevents/';
 
   /**
-   * Insert rows of data into a SFMC dataextension
+   * Insert rows of data into a SFMC data extension
    *
    * @param data - Array of rows content to insert
-   * @param dataExtensionKey - Targetted dataextension key
+   * @param dataExtensionKey - Targeted data extension key
    *
    * @returns the http response sent by SFMC
    */
@@ -35,11 +35,11 @@ export class DataEventsSync extends Requestable {
   }
 
   /**
-   * Upsert one row of data into a SFMC dataextension
+   * Upsert one row of data into a SFMC data extension
    *
    * @param data - A row content to insert
-   * @param primaryKey - The primary key of the targetted row to update
-   * @param dataExtensionKey - Targetted dataextension key
+   * @param primaryKey - The primary key of the targeted row to update
+   * @param dataExtensionKey - Targeted data extension key
    *
    * @returns the http response sent by SFMC
    */
