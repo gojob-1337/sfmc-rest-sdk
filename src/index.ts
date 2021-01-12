@@ -1,8 +1,8 @@
-import { Contacts } from './contacts/contacts';
-import { Messaging } from './messaging/messaging';
-import { DataEvents } from './data-events/data-events';
-import { SFMCOptions } from './options';
 import { Auth } from './auth/auth';
+import { Contacts } from './contacts/contacts';
+import { DataEvents } from './data-events/data-events';
+import { Messaging } from './messaging/messaging';
+import { SFMCOptions } from './options';
 
 /**
  * Base SDK class that handle configuration and provide objects that wrap SFMC REST APIs

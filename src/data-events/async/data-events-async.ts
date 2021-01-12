@@ -1,5 +1,5 @@
-import { Scope } from './../../common/scope';
 import { Requestable, RequestType } from '../../common/requestable';
+import { Scope } from '../../common/scope';
 
 export interface ASyncData {
   items: any[];
@@ -18,10 +18,10 @@ export class DataEventsASync extends Requestable {
   private readonly endpointRoot: string = 'data/v1/async/dataextensions/';
 
   /**
-   * Insert rows of data into a SFMC dataextension
+   * Insert rows of data into a SFMC data extension
    *
    * @param data - Array of rows content to insert
-   * @param dataExtensionKey - Targetted dataextension key
+   * @param dataExtensionKey - Targeted data extension key
    *
    * @returns an object containing the request id to be processed by SFMC
    */
@@ -37,10 +37,10 @@ export class DataEventsASync extends Requestable {
   }
 
   /**
-   * Upsert rows of data into a SFMC dataextension
+   * Upsert rows of data into a SFMC data extension
    *
    * @param data - Array of rows content to insert
-   * @param dataExtensionKey - Targetted dataextension key
+   * @param dataExtensionKey - Targeted data extension key
    *
    * @returns an object containing the request id to be processed by SFMC
    */
