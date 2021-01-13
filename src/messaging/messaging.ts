@@ -1,14 +1,10 @@
 import { Requestable, RequestType } from '../common/requestable';
 import { Scope } from '../common/scope';
 
-interface StringMap {
-  [key: string]: string;
-}
-
 export interface EmailRecipient {
   contactKey: string;
   to: string;
-  attributes: Array<StringMap>;
+  attributes?: Record<never, never>;
 }
 
 export interface EmailData {
